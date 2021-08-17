@@ -1,0 +1,1096 @@
+body{
+    padding: 0;
+    margin:  0;
+
+    overflow-x: hidden;
+}
+/*header styles*/
+.logoImage{
+    width: 264px;
+    padding: 1.7rem 0rem;
+}
+.demoBtn{
+    background: #008CF7;
+    border-radius: 7px;
+     background: linear-gradient( to left, #008CF7 50%,     #2C638C 50% );
+    background-size: 200% 100%;
+	background-position: right bottom;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+.demoBtn:hover{
+     background-position: left bottom;
+        color: white;
+}
+.headerSpacing{
+    padding-left: 2%!important;
+    padding-right: 2%!important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link .navItem{
+    color: #008CF7!important;
+     font-family: 'Raleway-Regular';
+
+}
+a.nav-link.navItem{
+    text-transform: capitalize;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #646464!important;
+
+}
+
+.menuList{
+    font-size: 12px!important;
+     padding: 1rem 0;
+}
+.submenuImage{
+    display: flex;
+}
+.colorGrey{
+    color: #3E3E3E!important;
+}
+.submenuList{
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+    color: #BABABA!important;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+.navBar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content .header {
+  background: red;
+  padding: 16px;
+  color: white;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.menu-mobile {
+  display: none;
+      padding: 26px 20px;
+    background: url("../img/mobile-menu.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.menu-mobile:after {
+  background: url("../img/mobile-menu.png");
+  font-size: 2.5rem;
+  padding: 0;
+  float: right;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-25%);
+          transform: translateY(-25%);
+}
+.menu-dropdown-icon:before {
+  content: "";
+  font-family: "FontAwesome";
+  display: none;
+  cursor: pointer;
+  float: right;
+  padding: 1.4em 1em;
+    position: absolute;
+    right: 20px;
+  background: #fff;
+  color: #333;
+    background: url("../images/submenuarrow.svg");
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+    background-position: center center;
+}
+.menu{
+    display: block;
+}
+.menu > ul {
+  list-style: none;
+  padding: 0;
+  box-sizing: border-box;
+      clear: right;
+    display: flex;
+    justify-content: space-between;
+}
+.menu > ul> li{
+    float: right;
+}
+.menu > ul:before,
+.menu > ul:after {
+  content: "";
+  display: table;
+}
+.menu > ul:after {
+  clear: both;
+}
+.menu > ul > li {
+  float: left;
+  padding: 22px 4px;
+  margin: 0;
+}
+.menu > ul > li a {
+  text-decoration: none;
+  padding: 0.5rem;
+  display: block;
+    font-size: 13px;
+    color: #646464;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    font-family: 'Raleway-Regular';
+}
+.menu > ul > li:hover {
+  border-bottom: 3px solid #008CF7;
+    
+}
+.menu > ul > li:hover a{
+    color: #008CF7!important;
+}
+.menu > ul > li.demoBtnList:hover{
+     border-bottom: 0px solid #008CF7!important;
+    
+}
+.menu > ul > li > ul {
+  display: none;
+  width: 100%;
+  background: #f0f0f0;
+  padding: 2rem 0.8rem;
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  margin-top: 25px;
+  list-style: none;
+  box-sizing: border-box;
+}
+.menu > ul > li > ul:before,
+.menu > ul > li > ul:after {
+  content: "";
+  display: table;
+}
+.menu > ul > li > ul:after {
+  clear: both;
+}
+.menu > ul > li > ul > li {
+  margin: 0;
+  padding-bottom: 0;
+  list-style: none;
+  background: none;
+  float: left;
+}
+.rightMenu{
+    width: 60%;
+}.leftMenu{
+    width: 40%;
+}
+.menu > ul > li > ul > li a {
+  color: #777;
+  padding: 0.5em 0;
+  width: 93%;
+  display: block;
+    border-top: 1px solid #d4d4d4;
+
+}
+.borderBottom{
+    border-bottom: 1px solid #d4d4d4;
+   
+}
+.menu > ul > li > ul > li a:hover{
+	color:#03a9f4;
+}
+.menu > ul > li > ul > li > ul {
+  display: block;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.menu > ul > li > ul > li > ul:before,
+.menu > ul > li > ul > li > ul:after {
+  content: "";
+  display: table;
+}
+.menu > ul > li > ul > li > ul:after {
+  clear: both;
+}
+.menu > ul > li > ul > li > ul > li {
+  float: left;
+  width: 100%;
+  margin: 0;
+  font-size: .8em;
+}
+.menu > ul > li > ul > li > ul > li a {   
+  font-size: 14px;
+
+    letter-spacing: 0.2px;
+}
+.menu > ul > li > ul.normal-sub {
+  width: 300px;
+  left: auto;
+  padding: 10px 20px;
+}
+.menu > ul > li > ul.normal-sub > li {
+  width: 100%;
+}
+.menu > ul > li > ul.normal-sub > li a {
+  border: 0;
+  padding: 1em 0;
+}
+ .menu-container{
+    position: fixed;
+    top: 0;
+    background: #fff;
+    width: 100%;
+     z-index: 1030;
+}
+.meucontentImg{
+    width: 100px!important;
+}
+.tab {
+  float: left;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 17px;
+}
+.submenuIcon{
+    display: none;
+}
+.submenuLinks{
+    display: flex;
+}
+.submenuarrowIcon{
+    width: 20px!important;
+}
+/* Create an active/current "tab button" class */
+.tab button.active .submenuIcon {
+    display: block;
+    padding: 10px 7px
+}
+.tab button.active .tabSubHeading {
+    color: #008CF7; 
+}
+.submenuImage img{
+    width: 100px!important;
+    margin-right: -17px;
+}
+.submenuImageOne{
+    z-index: 6;
+}
+.submenuImageTwo{
+    z-index: 5;
+}
+.submenuImageThree{
+    z-index: 4;
+}
+.submenuImageFour{
+    z-index: 3;
+}
+.submenuImageFive{
+    z-index: 2;
+}
+.submenuImageSix{
+    z-index: 1;
+}
+.submenuCircleImage{
+    width: 200px!important;
+}
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 1.5rem 0.5rem;
+  width: 100%;
+  border-left: none;
+}
+
+/* Clear floats after the tab */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#ibmwebsphere{
+    display: none;
+}
+
+.tabHeading{
+    color:  #000;
+    font-size: 22px;
+
+        margin: 0;
+    padding: 1rem 0;
+    padding-top: 0;
+}
+.tabSubHeading{
+    color: #777474;
+    font-size: 15px;
+
+}
+.tabSubText{
+    color: #BABABA;
+    font-size: 15px;
+
+}
+.submenumainHeading{
+    font-size: 26px;
+    color: #000;
+
+    
+}
+.menu-containershawdow{
+     box-shadow: 0px 1px 10px #999;
+}
+
+
+/*banner styles*/
+
+/*scroll bar start*/
+
+.scroll-bar-wrap {
+  position: relative;
+}
+.scroll-box {
+  width: 100%;
+  height: 690px;
+  overflow-y: scroll;
+}
+.scroll-box::-webkit-scrollbar {
+  width: .4em; 
+}
+.scroll-box::-webkit-scrollbar,
+.scroll-box::-webkit-scrollbar-thumb {
+  overflow:visible;
+  border-radius: 4px;
+}
+.scroll-box::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,.2); 
+}
+
+/* MAGIC HAPPENS HERE */
+.scroll-bar-wrap:hover .cover-bar {
+   opacity: 0;
+  -webkit-transition: all .5s;
+}
+/*scroll bar ends*/
+/*model end*/
+
+
+
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+   
+  
+    .menu-mobile { 
+    padding: 12px 20px;
+    }
+    .logoImage {
+    padding: 1rem 0rem;
+}
+    .leftMenu{
+        padding: 0!important;
+    }
+    .menu > ul > li > ul{
+        padding: 10px!important;
+    }
+
+ 
+    .headerSpacing{
+        padding: 5!important;
+    }
+    .navBarBrand{
+        width: 80%;
+    }
+    .navBarBrand img{
+            width: 244px;
+    }
+    a.nav-link.navItem{
+        text-align: center;
+    }
+
+    .lineThree{
+        display: none;
+    }
+    .d-flex-smd{
+        display: flex;
+    justify-content: center;
+    }
+
+    .lineFour{
+        display: none;
+    }
+
+
+    .logoCircle{
+        width: 200px;
+    height: 200px;
+    }
+    .mainHeading{
+        text-align: center;
+    }
+
+    .mulitImages {
+    max-width: 90%!important;
+        flex: 0 0 90%!important;}
+    .mainBannerHeading{
+        font-size: 24px;
+    }
+    .subBannerHeading{
+        font-size: 15px;
+    }
+    .navbar-brand{
+        margin-right: 0!important;
+    }
+    .clientsHeading{
+        font-size: 24px;
+    }
+    .directionOne{
+        display: none;
+    }
+    .multiModel {
+        margin-top: 3rem;
+    }
+    .inOutImages {
+    margin-top: 0;
+    margin-bottom: 0px;
+    }
+    .logSubCircles {
+    margin-top: -77px;
+    padding: 0 5rem;
+    }
+    .mcImages {
+    margin-top: 3rem;
+     }
+    .mulitCarrierTwo {
+        margin-top: 10px;
+        margin-left: 0;
+     }
+     .startBtn{
+        margin: auto;
+         display: flex;
+         justify-content: center;
+    }
+    .dCenterSm{
+    display: flex!important;
+    justify-content: center!important;
+        }
+    .alignMiddle{
+        text-align: center;
+    }
+      .footerList{
+        width: 200px;
+        text-align: center;
+        padding: 0.5rem 4rem!important;
+    }
+     .copyRightDiv{
+    display: block;
+    justify-content: center;
+     }
+    .copyRights{
+        text-align: center;
+    }
+      .awardsideHeading {
+    margin-top: 188px!important;
+    margin-bottom: 0px!important;
+  }
+    .aandaHeading{
+        text-align: center;
+    }
+      .awardsHeading {
+    margin-top: -189px;
+    margin-bottom: 62px;
+    }
+    a.carousel-control-prev.prevArrow{
+        position: relative;
+        margin-top: 0;
+    } 
+    a.carousel-control-next.nextArrow{
+        position: relative;
+         margin-top: 0;
+    }
+    .carouselArrows{
+        display: flex;
+        justify-content: center;
+       margin-top: 21px;
+    }
+    .aandaHeading {
+    background: #F7F7F7;
+    padding: 2rem;
+    font-size: 20px;
+    }
+   img.directionTwoLine2x{
+        display: none;
+    }
+    .banner{
+        margin-top: 3.5rem;
+    }
+    .footerNav{
+        display: flex;
+        justify-content: center;
+    }
+     .reductionLayer{
+        padding-top: 2rem;
+    }
+    .sectionspacing{
+        margin-bottom: 3rem;
+    }
+    .topspacing{
+        margin-top: 3rem;
+    }
+    .mulitCarrierTwo{
+        margin-top:2rem;
+    }
+    .multiCarrier{
+        margin-top: 0px;
+    }
+    .footerDiv{
+        display: block;
+        text-align: center;
+    }
+      }
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .footerDiv{
+        display: block;
+        text-align: center;
+    }
+    .extraLine{
+        padding: 0!important;
+    }
+    .inoutSecion{
+        margin-top: 146px;
+    }
+    .topspacing{
+        margin-top: 3rem;
+    }
+    .sectionspacing{
+        margin-bottom: 3rem;
+    }
+     .footerList{
+        width: 200px;
+        text-align: center;
+        padding: 0.5rem 4rem!important;
+    }
+     .alignMiddle{
+        text-align: center;
+    }
+   .inboundoutImg{
+        height: 315px!important;
+    }
+   .inoutSpacing{
+        padding: 0 2rem;
+    }
+     .reductionLayer{
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+    }
+    .lineTwo{
+        display: none;
+    }
+    .mulitImages {
+    max-width: 42%!important;
+        flex: 0 0 20%!important;}
+     a.nav-link.navItem{
+        text-align: center;
+    }
+    .lineThree ,.lineFour{
+        display: none;
+    }
+    .mulitCarrierTwo{
+        margin-top:0px;
+    }
+    .multiCarrier{
+        margin-top:0px;
+    }
+    .mainHeading{
+        text-align: center;
+    }
+    .subHeading{
+         text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .multiCarrier,.mulitCarrierTwo{
+        margin-left: 0;
+    }
+    .d-flex-smd{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+     .inOutImages {
+    margin-top: 0px;
+         margin-bottom: 0px;
+   }
+    .startBtn{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .dCenterSm{
+    display: flex!important;
+    justify-content: center!important;
+        }
+      .footerList{
+        width: 200px;
+              padding: 0 4rem!important;
+    }
+      .copyRightDiv{
+    display: block;
+    justify-content: center;
+    }
+    .copyRights{
+        text-align: center;
+    }
+      .awardsideHeading {
+    margin-top: 200px!important;
+    margin-bottom: 0px!important;
+    text-align: center;
+}
+    .awardsHeading{
+        text-align: center;
+    }
+      .awardsHeading {
+    margin-top: -189px;
+    margin-bottom: 62px;
+}
+         a.carousel-control-prev.prevArrow{
+        position: relative;
+        margin-top: 0;
+      
+    } 
+    a.carousel-control-next.nextArrow{
+        position: relative;
+         margin-top: 0;
+    }
+    .carouselArrows{
+        display: flex;
+        justify-content: center;
+    margin-top: 21px;
+    }
+    img.directionTwoLine2x{
+        display: none;
+    }
+   .banner{
+        margin-top: 3.5rem;
+    }
+}
+@media (max-width: 490px){
+.smallCircleLeft{
+        position: relative;
+    left: -24px;
+    top: 0px;
+    }
+    .smallCircleRight{
+        position: relative;
+    right: -24px;
+    top: 0px;
+    }
+}
+@media (max-width: 425px){
+    
+    .itemOne {
+    padding: 0rem 4.5rem 0;
+}
+    .inoutSpacing {
+    padding: 0 3%!important;
+}
+    .menu img {
+    width: 200px;
+}
+.logSubCircles {
+    margin-top: -81px;
+    padding: 0 2rem;
+}
+    .softwareImages {
+    width: 161px;
+}
+    .smallCircleLeft{
+        position: relative;
+    left: -24px;
+    top: 0px;
+    }
+    .smallCircleRight{
+        position: relative;
+    right: -14px;
+    top: 0px;
+    }
+    
+    }
+@media (max-width:320px){
+.softwareImages {
+    width: 148px;
+    margin-left: 0;
+    }
+    .logSubCircles {
+    margin-top: -74px;
+    padding: 0rem;
+    }
+    .logoCircle {
+    width: 176px;
+    height: 176px;
+    }      
+}
+@media (max-width:240px){
+.menu img {
+    width: 150px!important;
+}
+    .menu > ul > li a{
+        font-size: 10px;
+    }
+    a.demoBtn.navItem{
+        width: 160px;
+    }
+    }
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .footerLeftDiv{
+        text-align: left!important;
+    }
+    .footerList {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .truckImages {
+    width: 130px;
+}
+    .directionTwoLine{
+        margin-left: -14px;
+    }
+    .reductionLayer{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+       .inoutSpacing{
+        padding-left: 5rem;
+    padding-right: 5rem;}
+ a.nav-link.navItem{
+        text-align: center;
+    }
+    .multiCarrier{
+            margin-left: 202px;
+    }
+    .mulitImages {
+        max-width: 31%!important;}
+    
+    .inOutImages {
+    margin-top: 0px;
+        margin-bottom: 20px;
+}
+    .lineFour{
+        display: none;
+    }
+    .logSubCircles {
+    margin-top: -137px;
+    padding: 0 4rem;
+}
+   .copyRightDiv{
+    display: block;
+    justify-content: center;
+}
+    .copyRights{
+        text-align: center;
+    }
+        .awardsideHeading {
+    margin-top: 188px!important;
+    margin-bottom: 0px!important;
+     text-align: center;
+}
+      .awardsHeading {
+    margin-top: -189px;
+    margin-bottom: 5rem;
+}
+     a.carousel-control-prev.prevArrow{
+        position: relative;
+        margin-top: 0;
+      
+    } 
+    a.carousel-control-next.nextArrow{
+        position: relative;
+         margin-top: 0;
+        
+   
+    }
+    .carouselArrows{
+        display: flex;
+        justify-content: center;
+    margin-top: 21px;
+    }
+    .lineThree{
+        display: none;
+    }
+    .directionTwoLine2x{
+        display: block;
+     margin-top: -109px;
+    }
+    .banner{
+        margin-top: 4rem;
+    }
+}
+@media (max-width: 1024px){
+    .meuScroll{
+        height: 200px;
+        overflow-y: scroll;
+    }
+     .meuScrollone{
+        height: 200px;
+        overflow-y: scroll;
+    }
+    .meuScroll::-webkit-scrollbar { 
+    display: none; 
+}  
+    .meuScrollone::-webkit-scrollbar { 
+    display: none; 
+}
+     .dCenterSm{
+    display: flex!important;
+    justify-content: center!important;
+         
+        }
+    .alignMiddleImage{
+        text-align: center
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .inboundout{
+        height: 325px!important;
+    }
+    .partnersImage{
+        height: 150px!important;
+    }
+    .footerList {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .directionTwoLine{
+        margin-left: -52px;
+    }
+    .multiCarrier {
+    text-align: right;
+    margin-top: -24px;
+    margin-left: 88px;
+}
+    .alignMiddle{
+        text-align: left;
+    }
+    li.nav-item {
+    padding: 0 2px;
+}
+     a.nav-link.navItem{
+        text-align: center;
+    }
+    .lineThree {
+    margin-top: -133px;
+}
+    .mulitImages {
+        max-width: 24%!important;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .row.inoutSecion{
+        margin-top: 160px;
+    }
+    .lineFour{
+        display: none;
+    }
+    .inOutImages{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+     .logoCircle {
+    width: 300px;
+    height: 300px;
+}
+    .logSubCircles {
+    margin-top: -116px;
+}
+    .copyRights{
+        display: flex!important;
+    justify-content: center!important;
+    }
+    .awardsideHeading {
+    margin-top: 115px!important;
+    margin-bottom: 35px!important;
+}
+    .lineThree{
+        display: none;
+    }
+    .directionTwoLine2x{
+        display: block;
+     margin-top: -133px;
+    }
+    .inoutSpacing{
+        padding: 0 1rem;
+    } 
+}
+@media (min-width: 1200px) { 
+
+    .inoutSpacing{
+        padding: 0 4rem;
+    }
+    .partnersImage{
+        margin-bottom: 0!important;
+    }
+    .navbar-expand-xl .navbar-nav .nav-link{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .lineFour {
+    
+        z-index: -1;
+    }
+    li.nav-item {
+    padding: 0 10px;
+    }
+   .lineFour {
+    margin-top: 75px;
+    margin-left: -99px;
+    }
+
+}
+@media (min-width: 1800px) { 
+
+    .menuList {
+        padding: 2rem 0;
+        font-size: 18px!important;
+    }
+    .lineThree {
+    margin-top: -142px;
+    }
+    .headerSpacing{
+    padding-left: 2%!important;
+    padding-right: 2%!important;
+    }
+    .mulitCarrierTwo{
+    margin-top: -34px;
+    margin-left: 66px
+}
+    .shippingHeading{
+        font-size: 18px;}
+    .shippingSubHeading{
+        font-size: 12px;}
+    .reductionCard{
+    background-image: linear-gradient(to right bottom, #ac006a, #92006e, #730072, #4e0074, #0b0074);
+    width: 370px;
+    height: 390px;
+}
+    .upTo{
+        font-size: 29px;}
+    .reductionText{
+        font-size: 32px;}
+    .reductionContent{
+        font-size: 21px;}
+    .multiCarrier{
+            margin-left: 129px
+    }
+    .directionTwoLine{
+            margin-left: 73px;
+    }
+    img.directionTwoLine2x{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 1200px) {  
+  .menu-container .menu{
+	display:inline-block;
+   }
+  .menu-mobile {
+    display: block;    
+    float: right;
+  }
+  .menu-dropdown-icon:before {
+    display: block;
+  }
+  .menu > ul {
+    display: none;
+    width:100%;
+  }
+  .menu > ul > li {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+  .menu > ul > li a {
+    padding: 1em;
+    width: 100%;
+    display: block;
+  }
+  .menu > ul > li > ul {
+    position: relative;    
+    padding: 0px;
+  }
+  .menu > ul > li > ul.normal-sub {
+    width: 100%;
+  }
+  .menu > ul > li > ul > li {
+    float: none;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .menu > ul > li > ul > li:first-child {
+    margin: 0;
+  }
+  .menu > ul > li > ul > li > ul {
+    position: relative;
+  }
+  .menu > ul > li > ul > li > ul > li {
+    float: none;
+  }
+  .menu .show-on-mobile {
+    display: block;
+  }
+    .menu > ul > li{
+        padding: 0px;
+    }
+    .menu > ul > li > ul{
+        margin-top: 0;
+    }
+
+    .demoBtn{
+            padding: 10px 7px!important;
+    }
+    .tabcontent{
+        display: none;
+    }
+    .leftMenu {
+    padding: 20px;
+}
+    .rightMenu{
+        display: none
+    }
+    .menu > ul > li:hover{
+        border: none;
+    }
+}

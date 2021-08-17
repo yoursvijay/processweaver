@@ -1,0 +1,1418 @@
+.innerPage-banner {
+    background-image: url("../img/sap-banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 349px;
+    text-align: center;
+    padding-top: 82px;
+    padding-bottom: 82.5px;
+    margin-top: 152px;
+}
+
+.innerPage-btn {
+    background-color: #fff !important;
+    color: #212121 !important;
+    width: 194px;
+    height: 52px;
+}
+
+.shipping-sec {
+    padding: 78px 112px 0px;
+}
+
+.section-title .bnr-para {
+    padding: 15px 180px 0px;
+}
+
+.section-title p {
+    font-size: 14px;
+    color: #2E2E2E;
+    font-family: 'Raleway-Medium';
+    margin-bottom: 0px;
+    line-height: 23px;
+}
+
+.section-title p:first-child {
+    margin-top: 18px;
+}
+
+.carousel-screen {
+    width: 650px;
+    margin-top: 47px;
+}
+
+.carousel-screen .carousel-indicators li {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #C4C4C4;
+    margin-right: 15px;
+}
+
+.carousel-screen .carousel-indicators .active {
+    background: linear-gradient(289deg, #AE322E 0%, #1B5683 100%) 0% 0% no-repeat padding-box;
+}
+
+.carousel-screen .carousel-indicators {
+    bottom: -11%;
+}
+
+/*-------------- functionalities ---------------*/
+.functionalities {
+    margin-top: 96.41px;
+    background: #F6F8FA;
+    padding: 53.59px 112px 50px;
+}
+
+.functionalities .row {
+    margin-top: 72px;
+}
+
+.cruise {
+    padding: 16px;
+    border: 1px solid #CECECE;
+    border-radius: 50%;
+}
+
+.enterprise-content h3 {
+    margin: 18px 0px 0px;
+    font-size: 18px;
+    color: #2E2E2E;
+    font-family: 'Raleway-Semi-Bold';
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+
+.enterprise-content p {
+    margin: 18px 0px 0px;
+    font-size: 14px;
+    color: #2E2E2E;
+    font-family: 'Raleway-Medium';
+    line-height: 22px;
+}
+
+.functionalities .enterprise-content p {
+    width: 313px;
+}
+
+/*------------- Business Benefits ----------------*/
+
+.business-benefits {
+    padding: 63px 120px 100px 100px;
+}
+
+.business-benefits .row {
+    margin-top: 82.96px;
+}
+
+.benefits-left {
+    padding-right: 55px;
+}
+
+.benefits-left .enterprise-content h3 {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.benefits-left .enterprise-content h3::after {
+    display: block;
+    content: url("../img/success.png");
+    margin-left: 30px;
+}
+
+.benefits-left .enterprise-content p {
+    text-align: right;
+    margin-right: 55px;
+}
+
+.business-benefits img {
+    margin-left: -25px;
+    margin-top: -30px;
+}
+
+.benefits-right {
+    padding-left: 55px;
+}
+
+.benefits-right .enterprise-content h3 {
+    text-align: start;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.benefits-right .enterprise-content h3::before {
+    display: block;
+    content: url("../img/success.png");
+    margin-right: 30px;
+    -webkit-box-shadow: -1px 29px 38px -19px rgba(189, 34, 34, 1);
+    -moz-box-shadow: -1px 29px 38px -19px rgba(189, 34, 34, 1);
+    box-shadow: -1px 29px 38px -19px rgba(189, 34, 34, 1);
+}
+
+.benefits-right .enterprise-content p {
+    margin-left: 55px;
+}
+
+/*------------- Certifications --------------*/
+
+.certifications {
+    padding: 44px 0px 186px;
+    background-color: #F6F8FA;
+}
+
+/*-------------- innerPage-cards -----------------*/
+.innerPage-cards {
+    background: transparent linear-gradient(96deg, #AC006A 0%, #0B0074 100%) 0% 0% no-repeat padding-box;
+    height: 136px;
+    position: relative;
+}
+
+.card-grp {
+    padding: 0px 120px;
+    position: absolute;
+    top: -80%;
+}
+
+.innerPage-card1 {
+    padding: 67.78px 48.45px 55.37px 62.35px;
+    box-shadow: 10px 20px 18px #00000029;
+    background-color: #FFFFFF;
+    border: 1px solid #C1C1C1;
+    border-radius: 10px;
+    margin-right: 46.55px;
+}
+
+.innerPage-card2 {
+    padding: 67.78px 130.8px 55.37px 131px;
+    box-shadow: 10px 20px 18px #00000029;
+    background-color: #FFFFFF;
+    border: 1px solid #C1C1C1;
+    border-radius: 10px;
+}
+
+/*-------------digital css start-------------------------------*/
+.digital-sec {
+    background-color: #f7f7f7;
+    padding: 60px 170px;
+}
+
+.digital-right h3 {
+    font-size: 24px;
+    color: #1B5683;
+    line-height: 29px;
+    font-family: 'Raleway-Medium';
+    font-weight: 500;
+}
+
+.digital-right p {
+    font-size: 15px;
+    color: #2E2E2E;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 18px 0px 30px;
+    padding-right: 40px;
+}
+
+.digital-sec .form2 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+.digital-sec .btn-primary {
+    padding: 13px 0px;
+    font-size: 16px;
+    border-radius: 6px;
+    background: linear-gradient(to right, #1B67A2 0%, #AE322E 100%);
+    border: none;
+}
+
+.digital-sec .form11 {
+    padding: 24px 0px 24px 25px;
+    background-color: transparent;
+    font-size: 16px;
+    color: #707070;
+    border-radius: 6px;
+}
+
+/*-------------digital css end-------------------------------*/
+
+/* ---------------video-sec css start-------------------------*/
+.video-bg {
+    background-color: #F6F8FA;
+}
+
+.video-sec {
+    background-image: url("../img/video-bnr.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*    height: 760px;*/
+    padding: 0px 55px 0px;
+}
+
+.sec-headerv h2 {
+    font-size: 34px;
+    color: #fff;
+    font-family: 'Raleway-Medium';
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.sec-headerv p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.video-line {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+    width: 211px;
+    opacity: 0.5;
+}
+
+.para-txt {
+    padding-right: 145px;
+}
+
+.para-txt p {
+    font-size: 16px;
+    color: #CECECE;
+}
+
+.para-txt .para1 {
+    padding: 70px 0px 30px;
+
+}
+
+.video-right {
+    position: relative;
+    padding-bottom: 83px;
+}
+
+.video-left {
+    padding-top: 70px;
+}
+
+.video-img {
+    margin-left: -90px;
+    position: relative;
+      width: 725px;
+    border-radius: 10px;
+    box-shadow: 7px 18px 20px #00000029;
+}
+
+.video-hang2 {
+    position: absolute;
+    right: 85px;
+}
+
+.play-btn {
+    position: absolute;
+    bottom: 33%;
+    left: 38%;
+}
+
+/* ---------------video-sec css end-------------------------*/
+
+/*----------------------testmonial css start------------------*/
+.testmonial-sec {
+    background-color: #F6F8FA;
+    padding: 66px 0px 70px;
+
+}
+
+.testmonial-sec .card {
+    margin: 0px 270px;
+    position: relative;
+    border: none;
+}
+
+.testmonial-sec .card-body {
+    padding: 0px 123px;
+    text-align: center;
+}
+
+.card-line {
+    border-top: 1px solid #DBDBDB;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.test-img {
+    clip-path: circle(50% at 50% 50%);
+    width: 142px;
+    height: 142px;
+    position: relative;
+    top: -41px;
+}
+
+.testmonial-sec .card p {
+    margin: -8px 0px 25px;
+    color: #2E2E2E;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.testmonial-sec .card h5 {
+    margin: 25px 0px 15px;
+    color: #2E2E2E;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.quote {
+    position: relative;
+    top: 25px;
+}
+
+.testmonial-sec .owl-carousel .owl-item img {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+}
+
+.testmonial-sec .owl-item {
+    height: 440px;
+    margin-top: 85px;
+}
+
+.testmonial-sec .owl-theme .owl-nav {
+    display: none;
+}
+
+.testmonial-sec .owl-dots {
+    margin-top: 40px;
+}
+
+/*----------------------testmonial css end------------------*/
+
+/*----------------------customer css start------------------*/
+.customer-sec {
+    background-color: #F6F8FA;
+    padding: 62px 140px 0px 110px;
+}
+
+.customers {
+    margin-top: 37px;
+    background: #fff;
+    border-radius: 26px;
+    padding: 27px 20px;
+    -webkit-box-shadow: 0px 2px 26px 0px rgba(227, 229, 230, 1);
+    -moz-box-shadow: 0px 2px 26px 0px rgba(227, 229, 230, 1);
+    box-shadow: 0px 2px 26px 0px rgba(227, 229, 230, 1);
+}
+
+.customers .row1 {
+    display: flex;
+    justify-content: center;
+}
+
+/*----------------------customer css end------------------*/
+
+
+/*---------------- Responsive -----------------*/
+
+@media (max-width: 575.98px) {
+    .innerPage-banner {
+        height: auto;
+        padding-top: 71px;
+    }
+
+    .functionalities .row {
+        margin-top: 27px;
+    }
+
+    .section-title .bnr-para {
+        padding: 10px 15px 0px;
+    }
+
+    .shipping-sec {
+        padding: 30px 30px 0px;
+    }
+
+    .carousel-screen {
+        margin-top: 20px;
+    }
+
+    .section-title .bnr-para {
+        padding: 10px;
+    }
+
+    .functionalities {
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .functionalities .fun-card2 {
+        margin: 20px 0px;
+    }
+
+    .enterprise-content {
+        margin-top: 25px !important;
+    }
+
+    .benefits-left {
+        padding-right: 15px;
+    }
+
+    .benefits-left .enterprise-content {
+        padding-left: 15px;
+    }
+
+    .benefits-left .enterprise-content h3::after {
+        display: none;
+    }
+
+    .benefits-left .enterprise-content h3:before {
+        display: block;
+        content: url("../img/success.png");
+        margin-right: 30px;
+    }
+
+    .benefits-left .enterprise-content h3 {
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .benefits-left .enterprise-content p {
+        text-align: left;
+        margin: 7px 0px 0px 56px;
+    }
+
+    .benefits-right {
+        padding-left: 35px;
+    }
+
+    .functionalities img {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .business-benefits {
+        padding: 30px 0px;
+    }
+
+    .business-benefits .row {
+        margin-top: 30px;
+    }
+
+    .business-benefits img {
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .certifications {
+        padding: 30px 0px 40px;
+    }
+
+    .innerPage-cards {
+        height: 250px;
+    }
+
+    .card-grp {
+        display: block !important;
+        padding: 0px;
+        top: 5%;
+    }
+
+    .carousel-screen .carousel-indicators {
+        bottom: -24%;
+    }
+
+    .innerPage-card1 {
+        padding: 20px;
+        width: 95%;
+        margin-bottom: 30px;
+    }
+
+    .innerPage-card1 img {
+        width: 100%;
+    }
+
+    .innerPage-card2 {
+        padding: 20px;
+        width: 95%;
+    }
+
+    .innerPage-card2 img {
+        width: 100%;
+    }
+
+    .customer-sec,
+    .testmonial-sec,
+    .video-sec,
+    .digital-sec,
+    .problem-sec {
+        padding: 20px;
+    }
+
+    .digital-sec img {
+        display: flex;
+        margin: 0 auto;
+        width: 340px;
+    }
+
+    .customers .row1 {
+        display: block;
+    }
+
+    .testmonial-sec .card {
+        margin: 0px;
+    }
+
+    .testmonial-sec .card-body {
+        padding: 10px;
+    }
+
+    .testmonial-sec .owl-item {
+        height: 580px;
+        margin-top: 60px;
+    }
+
+    .para-txt {
+        padding-right: 0px;
+    }
+
+    .video-img {
+        margin-left: 0px;
+        width: 330px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .video-hang2,
+    .video-hang1 {
+        display: none;
+    }
+
+    .digital-sec .form11 {
+        margin-bottom: 20px;
+    }
+
+    .digital-sec .form2 {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .play-btn {
+        bottom: 30%;
+    left: 40%;
+    width: 56px;
+    }
+
+    .row1 img {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .testmonial-sec .owl-dots {
+        margin-top: 0px;
+    }
+
+    .digital-right p {
+        padding-right: 0px;
+    }
+
+    .video-right {
+        padding-bottom: 0px;
+    }
+
+    .video-left {
+        padding-top: 0px;
+    }
+
+    .para-txt .para1 {
+        padding-top: 30px;
+    }
+}
+
+@media(max-width:320px) {
+    .digital-sec img {
+        width: 290px;
+    }
+
+    .video-img {
+        width: 280px;
+    }
+
+    .functionalities .enterprise-content p {
+        width: auto;
+    }
+
+    .testmonial-sec .owl-item {
+        height: 627px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .business-benefits img {
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .innerPage-banner {
+        padding-top: 38px;
+    }
+
+    .functionalities {
+        margin-top: 66.41px;
+    }
+
+    .functionalities .row {
+        margin-top: 27px;
+    }
+
+    .functionalities img {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .functionalities .fun-card2 {
+        margin: 20px 0px;
+    }
+
+    .fun-enterprise {
+        text-align: center;
+    }
+
+    .functionalities .enterprise-content p {
+        width: auto;
+    }
+
+    .section-title .bnr-para {
+        padding: 10px 15px 0px;
+    }
+
+    .shipping-sec {
+        padding: 30px 30px 0px;
+    }
+
+    .carousel-screen {
+        margin-top: 20px;
+    }
+
+    .enterprise-content {
+        padding-left: 20px;
+        margin-top: 20px !important;
+    }
+
+    .benefits-left .enterprise-content h3::after {
+        display: none;
+    }
+
+    .benefits-left .enterprise-content h3:before {
+        display: block;
+        content: url("../img/success.png");
+        margin-right: 30px;
+    }
+
+    .benefits-left .enterprise-content h3 {
+        justify-content: flex-start;
+    }
+
+    .benefits-left .enterprise-content p {
+        text-align: left;
+        margin: 7px 0px 0px 56px;
+    }
+
+    .benefits-left {
+        padding-right: 0px;
+    }
+
+    .benefits-right {
+        padding-left: 15px;
+    }
+
+    .enterprise-content p {
+        margin-top: 7px;
+    }
+
+    .innerPage-cards {
+        height: 250px;
+    }
+
+    .card-grp {
+        display: block !important;
+        padding: 0px;
+        top: -25%;
+    }
+
+    .innerPage-card1 {
+        padding: 20px;
+        width: 95%;
+        margin-bottom: 30px;
+    }
+
+    .innerPage-card1 img {
+        width: 100%;
+    }
+
+    .innerPage-card2 {
+        padding: 20px;
+        width: 95%;
+    }
+
+    .innerPage-card2 img {
+        width: 100%;
+    }
+
+    .customer-sec,
+    .testmonial-sec,
+    .video-sec,
+    .digital-sec,
+    .problem-sec,
+    .business-benefits,
+    .functionalities {
+        padding: 20px;
+    }
+
+    .digital-sec img {
+        display: flex;
+        margin: 0 auto;
+        width: 340px;
+    }
+
+    .customers .row1 {
+        display: block;
+    }
+
+    .testmonial-sec .card {
+        margin: 0px;
+    }
+
+    .testmonial-sec .card-body {
+        padding: 10px;
+    }
+
+    .testmonial-sec .owl-item {
+        height: 580px;
+    }
+
+    .para-txt {
+        padding-right: 0px;
+    }
+
+    .video-img {
+        margin-left: 0px;
+        width: 330px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .video-hang2,
+    .video-hang1 {
+        display: none;
+    }
+
+    .digital-sec .form11 {
+        margin-bottom: 20px;
+    }
+
+    .digital-sec .form2 {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .play-btn {
+        bottom: 30%;
+        left: 39%;
+    }
+
+    .row1 img {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .testmonial-sec .owl-dots {
+        margin-top: 0px;
+    }
+
+    .digital-right p {
+        padding-right: 0px;
+    }
+
+    .video-right {
+        padding-bottom: 0px;
+    }
+
+    .video-left {
+        padding-top: 0px;
+    }
+
+    .para-txt .para1 {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .functionalities .enterprise-content p {
+        width: auto;
+    }
+
+    .innerPage-banner {
+        padding-top: 62px;
+    }
+
+    .functionalities {
+        margin-top: 66.41px;
+    }
+
+    .functionalities .row {
+        margin-top: 27px;
+    }
+
+    .section-title .bnr-para {
+        padding: 10px 10px 0px;
+    }
+
+    .shipping-sec {
+        padding: 30px 30px 0px;
+    }
+
+    .carousel-screen {
+        margin-top: 20px;
+    }
+
+    .enterprise-content {
+        padding-left: 20px;
+        margin-top: 20px !important;
+    }
+
+    .benefits-left .enterprise-content h3::after {
+        display: none;
+    }
+
+    .benefits-left .enterprise-content h3:before {
+        display: block;
+        content: url("../img/success.png");
+        margin-right: 30px;
+    }
+
+    .benefits-left .enterprise-content h3 {
+        justify-content: flex-start;
+    }
+
+    .benefits-left .enterprise-content p {
+        text-align: left;
+        margin: 7px 0px 0px 56px;
+    }
+
+    .benefits-left {
+        padding-right: 0px;
+    }
+
+    .benefits-right {
+        padding-left: 15px;
+    }
+
+    .enterprise-content p {
+        margin-top: 7px;
+    }
+
+    .business-benefits .row {
+        margin-top: 25.96px;
+    }
+
+    .business-benefits img {
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .certifications {
+        padding: 30px 0px 100px;
+    }
+
+    .innerPage-cards {
+        height: 200px;
+    }
+
+    .card-grp {
+        display: block !important;
+        padding: 0px 80px;
+        top: -30%;
+    }
+
+    .innerPage-card1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 95%;
+        margin-bottom: 30px;
+    }
+
+    .innerPage-card1 img {
+        width: 100%;
+    }
+
+    .innerPage-card2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 95%;
+    }
+
+    .innerPage-card2 img {
+        width: 100%;
+    }
+
+    .customer-sec,
+    .testmonial-sec,
+    .video-sec,
+    .digital-sec,
+    .problem-sec,
+    .business-benefits,
+    .functionalities {
+        padding: 30px;
+    }
+
+    .digital-sec img {
+        display: flex;
+        margin: 0 auto;
+        width: 340px;
+    }
+
+    .customers .row1 {
+        display: block;
+    }
+
+    .testmonial-sec .card {
+        margin: 0px;
+    }
+
+    .testmonial-sec .card-body {
+        padding: 10px;
+    }
+
+    .testmonial-sec .owl-item {
+        height: 510px;
+        margin-top: 60px;
+    }
+
+    .para-txt {
+        padding-right: 0px;
+    }
+
+    .video-img {
+        margin-left: 0px;
+        width: 450px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .video-hang2,
+    .video-hang1 {
+        display: none;
+    }
+
+    .digital-sec .form11 {
+        margin-bottom: 20px;
+    }
+
+    .digital-sec .form2 {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .play-btn {
+        bottom: 28%;
+        left: 59%;
+        left: 45%;
+    }
+
+    .row1 img {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .testmonial-sec .owl-dots {
+        margin-top: 0px;
+    }
+
+    .digital-right p {
+        padding-right: 0px;
+    }
+
+    .video-right {
+        padding-bottom: 0px;
+    }
+
+    .video-left {
+        padding-top: 0px;
+    }
+
+    .para-txt .para1 {
+        padding-top: 30px;
+    }
+
+    .testmonial-sec .card {
+        margin: 0px 100px;
+    }
+
+    .testmonial-sec .card-body {
+        /*    padding: 0px 50px;*/
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .innerPage-banner {
+        padding-top: 71px;
+    }
+
+    .functionalities {
+        margin-top: 66.41px;
+    }
+
+    .functionalities .row {
+        margin-top: 27px;
+    }
+
+    .section-title .bnr-para {
+        padding: 10px 15px 0px;
+    }
+
+    .shipping-sec {
+        padding: 30px 30px 0px;
+    }
+
+    .carousel-screen {
+        margin-top: 20px;
+    }
+
+    .certifications {
+        padding: 30px 0px 100px;
+    }
+
+    .business-benefits img {
+        margin-left: -30%;
+        margin-top: 0px;
+    }
+
+    .innerPage-cards {
+        height: 200px;
+    }
+
+    .card-grp {
+        display: block !important;
+        padding: 0px 200px;
+        top: -30%;
+    }
+
+    .innerPage-card1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 95%;
+        margin-bottom: 30px;
+    }
+
+    .innerPage-card1 img {
+        width: 100%;
+    }
+
+    .innerPage-card2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 95%;
+    }
+
+    .innerPage-card2 img {
+        width: 100%;
+    }
+
+    .customer-sec,
+    .testmonial-sec,
+    .video-sec,
+    .problem-sec,
+    .business-benefits,
+    .functionalities {
+        padding: 30px;
+    }
+
+    .business-benefits .row {
+        margin-top: 43.96px;
+        margin-bottom: 10px;
+    }
+
+    .digital-sec {
+        padding: 30px 30px 50px;
+    }
+
+    .digital-sec img {
+        display: flex;
+        margin: 0 auto;
+        width: 340px;
+    }
+
+    .customers .row1 {
+        display: flex;
+    }
+
+    .testmonial-sec .card {
+        margin: 0px;
+    }
+
+    .testmonial-sec .card-body {
+        padding: 10px;
+    }
+
+    .testmonial-sec .owl-item {
+        height: 474px;
+    }
+
+    .para-txt {
+        padding-right: 0px;
+    }
+
+    .video-img {
+        margin-left: 0px;
+        width: 450px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 162px;
+    }
+
+    .video-hang2,
+    .video-hang1 {
+        display: none;
+    }
+
+    .digital-sec .form11 {
+        margin-bottom: 20px;
+    }
+
+    .digital-sec .form2 {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .play-btn {
+        bottom: 44%;
+        left: 42%;
+    }
+
+    .row1 img {
+        display: flex;
+        margin: 0 auto;
+        width: 150px;
+    }
+
+    .testmonial-sec .owl-dots {
+        margin-top: 0px;
+    }
+
+    .digital-right p {
+        padding-right: 0px;
+    }
+
+    .video-right {
+        padding-bottom: 50px;
+    }
+
+    .video-left {
+        padding-top: 0px;
+        padding-bottom: 70px;
+    }
+
+    .para-txt {
+        padding-right: 40px;
+    }
+
+    .para-txt .para1 {
+        padding-top: 30px;
+    }
+
+    .testmonial-sec .card {
+        margin: 0px 100px;
+    }
+
+    .testmonial-sec .card-body {
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1202px) {
+    .certifications {
+        padding: 30px 0px 100px;
+    }
+
+    .business-benefits img {
+        margin-left: -30%;
+        margin-top: 0px;
+    }
+
+    .innerPage-cards {
+        height: 250px;
+    }
+
+    .card-grp {
+        display: block !important;
+        padding: 0px 400px;
+        top: -20%;
+    }
+
+    .innerPage-card1 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .innerPage-card1 img {
+        width: 100%;
+    }
+
+    .innerPage-card2 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+    .innerPage-card2 img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width:1360px) {
+
+    .customer-sec,
+    .testmonial-sec,
+    .video-sec,
+    .problem-sec {
+        padding: 30px;
+    }
+
+    .digital-sec {
+        padding: 30px 30px 50px;
+    }
+
+    .digital-sec img {
+        display: flex;
+        margin: 0 auto;
+        width: 340px;
+    }
+
+    .customers .row1 {
+        display: flex;
+    }
+
+    .testmonial-sec .card {
+        margin: 0px;
+    }
+
+    .testmonial-sec .card-body {
+        padding: 10px;
+    }
+
+    .testmonial-sec .owl-item {
+        height: 474px;
+    }
+
+    .para-txt {
+        padding-right: 0px;
+    }
+
+    .video-img {
+        margin-left: 0px;
+        width: 450px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 162px;
+    }
+
+    .video-hang2,
+    .video-hang1 {
+        display: none;
+    }
+
+    .digital-sec .form11 {
+        margin-bottom: 20px;
+    }
+
+    .digital-sec .form2 {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .play-btn {
+        bottom: 44%;
+        left: 42%;
+    }
+
+    .row1 img {
+        display: flex;
+        margin: 0 auto;
+        width: 150px;
+    }
+
+    .testmonial-sec .owl-dots {
+        margin-top: 0px;
+    }
+
+    .digital-right p {
+        padding-right: 0px;
+    }
+
+    .video-right {
+        padding-bottom: 50px;
+    }
+
+    .video-left {
+        padding-top: 0px;
+        padding-bottom: 70px;
+    }
+
+    .para-txt {
+        padding-right: 40px;
+    }
+
+    .para-txt .para1 {
+        padding-top: 30px;
+    }
+
+    .testmonial-sec .card {
+        margin: 0px 100px;
+    }
+
+    .testmonial-sec .card-body {
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media (min-width: 1360px) {
+    .container-1200 {
+        max-width: 1366px;
+    }
+}
+
+@media (min-width:1920px) {
+    .video-hang2 {
+        right: 141px;
+    }
+    .play-btn{
+        bottom: 35%;
+    left: 33%;
+    }
+}
+

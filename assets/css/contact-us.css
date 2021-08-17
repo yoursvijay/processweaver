@@ -1,0 +1,231 @@
+.contact {
+    width: auto;
+    margin: 0 auto;
+    margin-top: 152px;
+    background: #fff;
+    padding: 3rem 3rem;
+    border-radius: 6px;
+    box-shadow: 0px 0 20px #00000029;
+}
+
+.formLabel {
+    position: absolute;
+    top: 6px;
+    font-size: 14px;
+    font-family: 'Raleway-Medium';
+    margin: 10px;
+    padding: 6px 40px 6px 10px;
+    background-color: #fff;
+    -webkit-transition: top .2s ease-in-out,
+        font-size .2s ease-in-out;
+    transition: top .2s ease-in-out,
+        font-size .2s ease-in-out;
+}
+
+.active {
+    top: -25px;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.formInput {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Raleway-semi-Bold';
+    color: #333333;
+}
+.formfooter{
+    justify-content: space-between;
+}
+.border-0{
+    border-radius: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+.formFields {
+    margin-bottom: 30px;
+}
+
+.form {
+    margin-top: 32px;
+}
+
+textarea:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+#Button1 {
+    color: #fff !important;
+    margin-top: 0 !important;
+    height: auto !important;
+}
+
+.inputShadow {
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-0 {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
+}
+
+#mainCaptcha {
+    background: none;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-right: 0;
+    border-right: 0;
+}
+
+.catchtextgen {
+    padding-right: 0 !important;
+}
+
+
+
+#refresh {
+    color: #AE322E;
+    background: no-repeat;
+    font-size: 16px;
+    font-family: 'Raleway-Medium';
+    border-right: 0;
+    padding-left: 0;
+}
+
+.captchText {
+    border: 1px solid #cdcdcd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.captchBlock {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.captchBtn {
+    padding-left: 0 !important;
+}
+.error {
+    color: #f75d5d;
+    text-align: left;
+}
+
+@media (max-width: 576px) {
+    .contact {
+        width: auto;
+        margin-top: -25%;
+        background: #fff;
+        padding: 3rem 3rem;
+        border-radius: 6px;
+    }
+
+    .catchtextgen {
+        padding-right: 15px !important;
+    }
+
+    .captchBlock {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .submitformbtn {
+        padding-left: 15px;
+        border: none;
+    }
+
+    #refresh {
+        border-right: 1px solid #ccc;
+    }
+
+    #Button1 {
+        width: auto;
+        padding: 20px 80px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .contact {
+        width: auto;
+        margin-top: -25%;
+        background: #fff;
+        padding: 3rem 3rem;
+        border-radius: 6px;
+    }
+
+    .catchtextgen {
+        padding-right: 15px !important;
+    }
+
+    .captchBlock {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .submitformbtn {
+        padding-left: 15px;
+        border: none;
+    }
+
+    #refresh {
+        border-right: 1px solid #ccc;
+    }
+
+    #Button1 {
+        width: auto;
+        padding: 20px 80px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .contact {
+        width: auto;
+        margin-top: -25%;
+        background: #fff;
+        padding: 3rem 3rem;
+        border-radius: 6px;
+    }
+
+    .catchtextgen {
+        padding-right: 15px !important;
+    }
+
+    .captchBlock {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .submitformbtn {
+        padding-left: 15px;
+        border: none;
+    }
+
+    #refresh {
+        border-right: 1px solid #ccc;
+    }
+
+    #Button1 {
+        width: auto;
+        padding: 20px 80px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .contact {
+        width: 773px;
+        margin: 0 auto;
+        margin-top: -140px;
+        background: #fff;
+        padding: 3rem 3rem;
+        border-radius: 6px;
+    }
+}

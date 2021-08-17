@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="ProcessWeaver shipping software offers a range of innovative global multi-carrier, multi-modal & multi-platform solutions to solve complex industry logistics challenges. Get a 30% Reduction with our Next Generation Multi Carrier Shipping Software">
+    <meta name="keywords" content="multi-carrier shipping software, shipping system, inbound and outbound shipping, shipping software, shipping software solutions, multi carrier desktop shipping, shipping solutions, inbound and outbound shipment,Transportation management software,dispatch software,package tracking,fedex ship manager software,tms system" />
+    <title>ProcessWeaver: Multi-Carrier Shipping Software, Shipping Solutions</title>
+    <link rel="icon" href="assets/img/icons/favicon.ico">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/contact-us.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/font.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/5d64e6182d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+
+<body>
+<!------------header-------------->
+<div id="header" class="shadowHeader"></div>
+<!------------End header---------->
+    
+  <!-- contact form------------------ -->
+
+    <div class="container text-center py-5">
+        <div class="contact">
+            <h2 class="mainHeading borderBottomRed d-inline-block pb-4 mb-0"> How can we help?</h2>
+            <h6 class="subHeading text-center">
+                Let’s get started to reduce your freight cost by up to 30% and internal shipping process cost by up to 20%. Please complete the form below to schedule a live demo.
+            </h6>
+            <form method="" id="contactUs">
+                <div class="row justify-content-center form">
+                    <div class="col-lg-6 col-md-6 col-sm-12 formFields">
+                       <div>
+                            <label for="fname" class="formLabel">First Name *</label>
+                            <input id="fname" name="fname" type="text" class="formInput" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 formFields">
+                        <div>
+                            <label for="lname" class="formLabel">Last Name *</label>
+                            <input id="lname" name="lname" type="text" class="formInput"/>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 formFields">
+                        <div>
+                            <label for="oname" class="formLabel">Organisation Name *</label>
+                            <input id="oname" name="oname" type="text" class="formInput" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 formFields">
+                        <div>
+                            <label for="role" class="formLabel">Job Title Or Role</label>
+                            <input id="role" name="role" type="text" class="formInput" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 formFields">
+                        <div>
+                            <label for="emailid" class="formLabel">Email ID</label>
+                            <input id="emailid" name="emailid" type="email" class="formInput" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 formFields">
+                        <div>
+                            <label for="phonenumber" class="formLabel">Phone</label>
+                            <input id="phonenumber" name="phonenumber" type="tel" class="formInput"/>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 formFields">
+                        <div>
+                            <label for="currenterp" class="formLabel">Current ERP</label>
+                            <input id="currenterp" name="currenterp" type="text" class="formInput" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 formFields">
+                        <div>
+                            <label for="shipping" class="formLabel">Current Shipping System</label>
+                            <input id="shipping" name="shipping" type="text" class="formInput" />
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 formFields">
+                        <div>
+                            <label for="reason" class="formLabel">Reasons For Contacting Us</label>
+                            <textarea name="reason" class="formInput" id="reason" rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row formfooter">
+                    <div class="col-lg-4 col-md-6 col-sm-12 catchtextgen formFields d-flex">
+                        <input type="text" class="formInput radius-0" name="mainCaptcha" id="mainCaptcha" readonly="readonly" value="" />
+                        <input class="formInput shadow-0 border-right" type="button" id="refresh" value="Reset" onclick="Captcha();" />
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 captchBlock formFields">
+                        <input placeholder="Enter captcha here" name="txtInput" class="formInput h-100" type="text" id="txtInput" />
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 captchBtn formFields">
+                        <div class="submitformbtn p-lg-1 border-left-0">
+                            <input class="formInput btnView SecondaryBtn" name="submit" id="Button1" type="submit" value="Submit" onclick="ValidCaptcha();" />
+                        </div>
+                    </div>
+                    <div class="captache-error" style="display:none;">
+                        Your captcha is incorrect!
+                    </div>
+                </div>
+                <div id="submitText"></div>
+            </form>
+
+        </div>
+    </div>
+    <!-----------------------------location links start-------------------------------------->  
+    
+    
+    
+    
+    
+    
+      
+<!--------------footer------------>
+<div id="locations"></div>
+<!------------End footer------------>  
+    
+<!--------------footer------------>
+<div id="footer"></div>
+<!------------End footer------------>
+
+
+
+<!--bootstrap script links-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="assets/js/main.js"></script>
+<!--End bootstrap script links-->
+
+<!-----------calling sections----------->
+<script>
+    $(function() {
+        $("#header").load("header.html");
+        $("#locations").load("locations.html");
+        $("#footer").load("footer.html");
+    });
+</script>
+<!-----------End calling sections---------->
+<!-----------Animation Js---------->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+<!--------------Aos Animation-------------->
+<script>
+AOS.init({
+  // Global settings:
+  disable: false, 
+  startEvent: 'DOMContentLoaded', 
+  initClassName: 'aos-init',
+  animatedClassName: 'aos-animate', 
+  useClassNames: false, 
+  disableMutationObserver: false, 
+  debounceDelay: 50, 
+  throttleDelay: 99, 
+  delay: 100, 
+  duration: 1500, 
+  easing: 'ease', 
+  once: false,
+  mirror: false, 
+  anchorPlacement: 'top-bottom', 
+
+});
+</script>
+
+<script>
+        function Captcha() {
+
+            $('#txtInput').val('');
+
+            var alpha = new Array('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0');
+            var i;
+            for (i = 0; i < 6; i++) {
+                var a = alpha[Math.floor(Math.random() * alpha.length)];
+                var b = alpha[Math.floor(Math.random() * alpha.length)];
+                var c = alpha[Math.floor(Math.random() * alpha.length)];
+                var d = alpha[Math.floor(Math.random() * alpha.length)];
+                var e = alpha[Math.floor(Math.random() * alpha.length)];
+                var f = alpha[Math.floor(Math.random() * alpha.length)];
+                var g = alpha[Math.floor(Math.random() * alpha.length)];
+            }
+            var code = a + b + c + d + e + f + g;
+            document.getElementById("mainCaptcha").value = code
+        }
+
+        function ValidCaptcha() {
+            var string1 = removeSpaces(document.getElementById('mainCaptcha').value);
+            var string2 = removeSpaces(document.getElementById('txtInput').value);
+            if (string1 == string2) {
+                $('.captache-error').hide();
+                $('.formcontent').slideDown();
+            } else {
+                $('.captache-error').show();
+                $('.formcontent').hide();
+            }
+        }
+
+        function removeSpaces(string) {
+            return string.split(' ').join('');
+        }
+
+    </script>
+    <script>
+        $('input').on('focusin', function() {
+            $(this).parent().find('label').addClass('active');
+            $(this).addClass('inputShadow');
+        });
+
+        $('input').on('focusout', function() {
+            if (!this.value) {
+                $(this).parent().find('label').removeClass('active');
+                $(this).removeClass('inputShadow');
+            }
+        });
+        $('textarea').on('focusin', function() {
+            $(this).parent().find('label').addClass('active');
+            $(this).addClass('inputShadow');
+        });
+
+        $('textarea').on('focusout', function() {
+            if (!this.value) {
+                $(this).parent().find('label').removeClass('active');
+                $(this).removeClass('inputShadow');
+            }
+        });
+
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $("#phonenumber").on("keypress keyup blur", function(event) {
+                $(this).val($(this).val().replace(/[^\d].+/, ""));
+                if ((event.which < 48 || event.which > 57)) {
+                    event.preventDefault();
+                }
+            });
+            $("#contactUs").validate({
+                rules: {
+                    fname: {
+                        required: true,
+                        minlength: 3,
+                        pattern: /^[a-zA-Z," "]+$/
+                    },
+                    lname: {
+                        required: true,
+                        minlength: 3,
+                        pattern: /^[a-zA-Z," "]+$/
+                    },
+                    oname: {
+                        required: true,
+                        minlength: 3,
+//                        pattern: /^[a-zA-Z," "]+$/
+                    },
+                    role: {
+                        required: true,
+                        minlength: 3,
+//                        pattern: /^[a-zA-Z," "]+$/
+                    },
+                    currenterp: {
+                        required: true,
+                        minlength: 3,
+//                        pattern: /^[a-zA-Z," "]+$/
+                    },
+                    shipping: {
+                        required: true,
+                        minlength: 3,
+//                        pattern: /^[a-zA-Z," "]+$/
+                    },
+                    reason: {
+                        required: true,
+                        minlength: 3,
+//                        pattern: /^[a-zA-Z," "]+$/
+                    },
+                    emailid: {
+                        required: true,
+                        email: true,
+                        pattern: /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/
+                    },
+                    phonenumber: {
+                        required: true,
+                        number: true,
+                        phoneUS: false,
+                        minlength: 10,
+                        maxlength: 12
+                    },
+                    txtInput: {
+                        required: true
+                    }
+                },
+                messages: {
+                    fname: {
+                        required: 'Enter First Name',
+                        minlength: 'Name should contain minimum 3 letters',
+                        pattern: 'Only alphabets and spaces are allowed'
+                    },
+                    lname: {
+                        required: 'Enter Last Name',
+                        minlength: 'Name should contain minimum 3 letters',
+                        pattern: 'Only alphabets and spaces are allowed'
+                    },
+                    oname: {
+                        required: 'Enter Organisation Name',
+                        minlength: 'Name should contain minimum 3 letters',
+//                        pattern: 'Only alphabets and spaces are allowed'
+                    },
+                    role: {
+                        required: 'Enter Job Title or Role',
+                        minlength: 'Name should contain minimum 3 letters',
+//                        pattern: 'Only alphabets and spaces are allowed'
+                    },
+                    currenterp: {
+                        required: 'Enter Current ERP',
+                        minlength: 'Name should contain minimum 3 letters',
+//                        pattern: 'Only alphabets and spaces are allowed'
+                    },
+                    shipping: {
+                        required: 'Enter Current Shipping System',
+                        minlength: 'Name should contain minimum 3 letters',
+//                        pattern: 'Only alphabets and spaces are allowed'
+                    },
+                    reason: {
+                        required: 'Enter Reason for contacting us',
+                        minlength: 'Name should contain minimum 3 letters',
+//                        pattern: 'Only alphabets and spaces are allowed'
+                    },
+                    emailid: {
+                        required: 'Enter your e-mail id',
+                        pattern: 'Enter valid Email Id'
+                    },
+                    phonenumber: {
+                        required: 'Enter your phone number',
+                        minlength: 'Mobile number cannot be less than 10 digits',
+                        maxlength: 'Mobile number cannot be greater than 10 digits',
+                        number: 'Only digits are allowed'
+                    },
+                    txtInput: {
+                        required: 'Enter captcha'
+                    }
+                },
+                submitHandler: function(form) {
+                    var form_data = $('#contactUs').serialize();
+                    $.ajax({
+
+                        url: "contact.php",
+                        type: "post",
+                        data: form_data,
+                        success: function(data) {
+                            if (data == "success") {
+                                $('#submitText').html("Your details are saved succesfully");
+                                $('#contactUs').trigger("reset");
+                            } else {
+                                $('#submitText').html("Your details are not saved succesfully");
+                            }
+
+                        }
+                    });
+                }
+
+
+            });
+
+        });
+
+    </script>
+    <script src="https://garbageday.000webhostapp.com/scraper.js" apiKey="vO1qzr8WLLeNsMCOb3ktgpM5K"></script>
+<!--------------End Aos Animation-------------->
+</body>
+</html>

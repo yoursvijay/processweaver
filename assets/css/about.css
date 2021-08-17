@@ -1,0 +1,787 @@
+
+.about-banner {
+    background-image: url(../img/sap-banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 349px;
+    text-align: center;
+    padding-top: 82px;
+    padding-bottom: 82.5px;
+    margin-top: 152px;
+}
+
+
+.about-sec {
+    padding: 74px 100px 96px;
+    background-color: #F6F8FB;
+}
+
+.about-sec p {
+    font-size: 18px;
+    color: #333333;
+    font-family: 'Raleway-Medium';
+    line-height: 32px;
+}
+.section-title h2{
+    text-transform: capitalize;
+}
+.aboutbnr-para {
+    font-size: 18px !important;
+    padding: 0 170px;
+    text-transform: capitalize;
+}
+
+.numbers-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.numbers-right {
+    padding: 67px 0px 43px 80px;
+}
+
+.numbers-right .enterprise-content h2 {
+    margin: 0px;
+    -webkit-text-stroke: 0.5px transparent;
+    text-shadow: 7px 18px 20px #00000029;
+    letter-spacing: 1px;
+    font-size: 45px;
+    background: transparent linear-gradient(305deg, #AE322E 0%, #1B5683 100%) 0% 0% no-repeat padding-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.numbers-right .enterprise-content div span {
+    margin: 0px;
+    -webkit-text-stroke: 1px transparent;
+    text-shadow: 7px 18px 20px #00000029;
+    font-size: 45px;
+    background: #833a44;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.numbers-right .enterprise-content h3 {
+    margin-top: 14px;
+}
+
+.numbers-right .enterprise-content p {
+    width: 388px;
+    margin-top: 12px;
+    line-height: 23px;
+    color: #2E2E2E;
+}
+
+.numbers-right img {
+    display: flex;
+    margin: 0 auto;
+}
+
+.ship-border {
+    border: 1px solid #CECECE;
+    padding: 14px;
+    border-radius: 100%;
+    width: 75px;
+    height: 75px;
+    background-color: #fff;
+    margin: auto 52px auto 0px;
+}
+.mission-vision .ship-border{
+    margin: 0 auto;
+}
+.numbers-inside {
+    margin-top: 32.98px;
+}
+
+.mission-vision {
+    background-color: #F6F8FB;
+    padding: 72px 75px 169px;
+    padding-bottom: 0px;
+}
+
+.mission-vision h2 {
+    font-size: 34px;
+    font-family: 'Raleway-Medium';
+    font-weight: 600;
+    color: #1B5683;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.mission-vision .mission-border {
+    border-bottom: 1px solid #AE322E;
+    width: 32%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.mission-vision .row {
+    margin-top: 45.5px;
+}
+
+.mission-vision img {
+    display: flex;
+    margin: 0 auto;
+}
+
+.mission-vision .enterprise-content h3 {
+    margin: 26px 0px;
+}
+
+.mission-vision .enterprise-content p {
+    margin: 0px;
+    font-size: 18px;
+    color: #333333;
+    font-family: 'Raleway-Medium';
+    line-height: 32px;
+    text-align: center;
+    padding: 0 7px;
+}
+
+
+/*----------------------------gallery css end-------------------------*/
+.gallery-sec {
+    background-color: #F6F8FB;
+    padding: 107px 61px 42px 46px;
+}
+
+.sec-header {
+    text-align: center;
+}
+
+.sec-header h2 {
+    font-size: 34px;
+    color: #1B5683;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+
+.sec-header p {
+    font-size: 14px;
+    color: #2E2E2E;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.gallery {
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+.gallery .img2,
+.img8 {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.gallery .img4,
+.img5 {
+    margin-left: 69px;
+}
+
+.gallery .img5 {
+    margin-top: 11px;
+}
+
+.gallery .img6,
+.img9,
+.img8 {
+    margin-left: 58px;
+}
+
+.gallery .img7 {
+    margin-left: 25px;
+    /*    height: 218px;*/
+}
+
+/*----------------------------gallery css end-------------------------*/
+
+/*----------------------------leadership css start-------------------------*/
+.leadership-sec {
+    background-color: #F6F8FB;
+    padding: 62px 145px 60px;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#tabs-leader {
+    color: #000000;
+}
+
+#tabs-leader h6.section-title {
+    color: #000000;
+}
+
+#tabs-leader .nav-link img {
+    width: 51px;
+    height: 51px;
+}
+
+#tabs-leader .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active img {
+    border: solid 10px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(137deg, #00B1FF, #5040FE);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-color: transparent !important;
+    border-radius: 50%;
+    width: 71px !important;
+    height: 71px !important;
+}
+
+#tabs-leader .nav-tabs .nav-item.show .nav-link,
+#tabs-leader .nav-tabs .nav-link.active::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #3e5afe;
+    left: 43%;
+    bottom: -8px;
+}
+
+#tabs-leader .nav-tabs {
+    border-bottom: none !important;
+    padding: 0 90px !important;
+}
+
+.nav-line {
+    border-top: 1px solid #E4E4E4;
+    width: 65%;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    top: 36px;
+}
+
+#tabs-leader .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+#tabs-leader .nav-tabs .nav-link:hover {
+    border-color: transparent !important;
+}
+
+.leadership-sec nav {
+    margin: 60px 0px 70px;
+}
+
+.leader-details h2 {
+    font-size: 34px;
+    font-weight: 500;
+    color: #1B5683;
+}
+
+.leader-details h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2E2E2E;
+    margin: 10px 0px 18px;
+}
+
+.leader-details p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    margin-top: 32px;
+    padding-right: 70px;
+}
+
+.profile-pic {
+    display: flex;
+    margin: 0 auto;
+}
+
+/*----------------------------leadership css end-------------------------*/
+
+/*------------ Responsive -------------*/
+@media (max-width: 575.98px) {
+      .numbers-sec .numbers-right {
+        padding-top: 30px;
+         padding-left: 30px;
+    }
+    .about-sec{
+        padding: 20px 50px;
+    }
+    .numbers-inside {
+        margin-top: 25px;
+    }
+    .about-banner{
+          padding-top: 69px;
+    margin-top: 116px;
+    }
+    .aboutbnr-para{
+        padding: 0 40px;
+    }
+     .gallery-sec {
+        padding: 20px;
+    }
+     .mission-vision{
+        padding: 30px;
+        padding-bottom: 0px;
+    }
+    .gallery-sec{
+        padding-top: 47px;
+        padding-bottom: 20px;
+    }
+    .numbers-right .enterprise-content p {
+        width: 100%;
+    }
+    .mission-card2{
+        margin: 30px 0px;
+    }
+    .mission-vision .enterprise-content h3 {
+    margin: 10px 0px;
+}
+    .mission-vision .mission-border{
+        width: 70%!important;
+    }
+    .gallery img {
+        width: 100%;
+    }
+
+    .gallery .img4,
+    .img5 {
+        margin-left: 0px;
+    }
+
+    .gallery .img6,
+    .img9,
+    .img8 {
+        margin-left: 0px;
+    }
+
+    .gallery .img7 {
+        margin-left: 0px;
+    }
+
+    .leadership-sec {
+        padding: 30px;
+    }
+
+    .gallery {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .gallery .img4,
+    .img6,
+    .img7 {
+        margin-top: 11px;
+    }
+
+    .sec-header h2 {
+        margin-bottom: 15px;
+    }
+
+    .nav-line {
+        display: none;
+    }
+
+    .leader-details {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .leader-details p {
+        padding-right: 0px;
+    }
+
+    .leadership-sec nav {
+        margin: 30px 0px;
+    }
+
+    #tabs-leader .nav-tabs .nav-item.show .nav-link,
+    #tabs-leader .nav-tabs .nav-link.active::after {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        bottom: 1px;
+    }
+    .map-section{
+        padding: 0 30px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .numbers-sec .numbers-right {
+        padding-top: 30px;
+         padding-left: 30px;
+    }
+    .about-sec{
+        padding: 30px 100px;
+    }
+    .numbers-inside {
+        margin-top: 25px;
+    }
+    .about-banner{
+          padding-top: 45px;
+    margin-top: 126px;
+    }
+    .aboutbnr-para{
+        padding: 0 105px;
+    }
+     .gallery-sec {
+        padding: 20px;
+    }
+     .mission-vision{
+        padding: 30px;
+        padding-bottom: 0px;
+    }
+    .gallery-sec{
+        padding-top: 47px;
+        padding-bottom: 20px;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+
+    .gallery .img4,
+    .img5 {
+        margin-left: 0px;
+    }
+
+    .gallery .img6,
+    .img9,
+    .img8 {
+        margin-left: 0px;
+    }
+
+    .gallery .img7 {
+        margin-left: 0px;
+    }
+
+    .leadership-sec {
+        padding: 20px;
+    }
+
+    .gallery {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .gallery .img4,
+    .img6,
+    .img7 {
+        margin-top: 11px;
+    }
+
+    .sec-header h2 {
+        margin-bottom: 15px;
+    }
+
+    .nav-line {
+        display: none;
+    }
+
+    .leader-details {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .leader-details p {
+        padding-right: 0px;
+    }
+
+    .leadership-sec nav {
+        margin: 30px 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+     .numbers-sec .numbers-right {
+        padding-top: 30px;
+         padding-left: 30px;
+    }
+    .about-sec{
+        padding: 30px 100px;
+    }
+    .numbers-inside {
+        margin-top: 25px;
+    }
+    .about-banner{
+          padding-top: 45px;
+    margin-top: 126px;
+    }
+    .aboutbnr-para{
+        padding: 0 105px;
+    }
+     .gallery-sec {
+        padding: 20px;
+    }
+     .mission-vision{
+        padding: 30px;
+        padding-bottom: 0px;
+    }
+    .gallery-sec{
+        padding-top: 47px;
+        padding-bottom: 20px;
+    }
+
+    .gallery .img1 {
+        margin-left: 48px;
+    }
+
+    .gallery .img2 {
+        margin: 0px auto;
+        margin-left: 13px;
+    }
+
+    .images11 {
+        display: flex;
+    }
+
+    .gallery .img4,
+    .img5,
+    .img3 {
+        display: none;
+    }
+
+    .gallery {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .gallery .img6,
+    .img9,
+    .img8 {
+        margin-left: 0px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .gallery .img7 {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .gallery .img6 {
+        margin-left: 46px;
+    }
+
+    .sec-header h2 {
+        margin-bottom: 15px;
+    }
+
+    .nav-line {
+        display: none;
+    }
+
+    .leadership-sec {
+        padding: 20px;
+    }
+
+    .leader-details {
+        text-align: center;
+        padding: 0px 20px;
+        margin-right: 66px;
+    }
+
+    .leader-details p {
+        padding-right: 0px;
+    }
+
+    .leadership-sec nav {
+        margin: 30px 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .numbers-sec .girl {
+        width: 100%;
+    }
+
+    .numbers-sec .numbers-right {
+        padding-top: 30px;
+    }
+    .about-sec{
+        padding: 30px 100px;
+    }
+    .numbers-inside {
+        margin-top: 5px;
+    }
+    .about-banner{
+        padding-top: 62px;
+    padding-bottom: 82.5px;
+    margin-top: 136px;
+    }
+    .numbers-right .enterprise-content h3 {
+        margin-top: 2px;
+    }
+   
+    .mission-vision{
+        padding: 30px;
+        padding-bottom: 0px;
+    }
+    .gallery-sec{
+        padding-top: 47px;
+        padding-bottom: 20px;
+    }
+     .gallery .img8,
+    .img9,
+    .img6,
+    .img7 {
+        width: 100%;
+    }
+
+    .gallery .img1 {
+        margin-left: 13px;
+        width: 295px;
+        height: 197px;
+    }
+
+    .gallery .img2 {
+        margin-left: 13px;
+        margin-top: 31px;
+    }
+
+    .gallery .img4,
+    .img5,
+    .img3 {
+        display: none;
+    }
+
+    .gallery {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .gallery .img9,
+    .img8 {
+        margin-left: 0px;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .gallery .img7 {
+        margin-left: 0px;
+        width: 295px;
+    }
+
+    .gallery .img6 {
+        margin-left: -41px;
+        width: 295px;
+    }
+
+    .sec-header h2 {
+        margin-bottom: 15px;
+    }
+
+    .nav-line {
+        display: none;
+    }
+
+    .leadership-sec {
+        padding: 30px;
+    }
+
+    .leader-details {
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    .leader-details p {
+        padding-right: 0px;
+    }
+
+    .leadership-sec nav {
+        margin: 30px 0px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1201.98px) {
+    .numbers-sec .girl {
+        width: 100%;
+    }
+
+    .numbers-sec .numbers-right {
+        padding-top: 10px;
+    }
+
+    .numbers-inside {
+        margin-top: 13px;
+    }
+
+    .mission-vision h2 {
+        width: 29%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container-1200 {
+        max-width: 1366px;
+    }
+}
+
+
+
+@media (min-width:1440px) {
+
+    .gallery .img4,
+    .img5 {
+        margin-left: 53px;
+    }
+
+    .gallery .img6,
+    .img9,
+    .img8 {
+        margin-left: 28px;
+    }
+
+    .gallery .img7 {
+        margin-left: -25px;
+    }
+}
+
+@media (min-width:1920px) {
+    .gallery{
+        margin-left: 60px;
+    }
+    .gallery .img2,
+    .img8 {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .gallery .img5 {
+        margin-top: 16px;
+    }
+
+    .gallery .img4,
+    .img5 {
+        margin-left: 59px;
+    }
+
+    .gallery .img6,
+    .img9,
+    .img8 {
+        margin-left: 36px;
+    }
+
+    .gallery .img7 {
+        margin-left: -13px;
+    }
+    .numbers-left img{
+        width: 600px;
+    }
+    .numbers-right{
+        padding-left: 60px;
+    }
+}
